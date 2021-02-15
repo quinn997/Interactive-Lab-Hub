@@ -103,7 +103,7 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 **Give us feedback on Tinkerbelle.**<br>
-The color shown on the tinkerbelle device (my phone) is slightly different from the color shown on the Jane Wren controller.
+Although I have set the brightness to full on both my phone and computer, the color shown on the tinkerbelle device (my phone) is slightly different from the color shown on the Jane Wren controller(computer).
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
