@@ -113,7 +113,8 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
-**Show the follow-up work here.**
+**Show the follow-up work here.**<br>
+**Paper Prototyped interaction video:** https://drive.google.com/file/d/1nsdKHVZkSAEc0-OAhhY6iimLo-0Hr2H2/view?usp=sharing
 
 ## Part E. Costume the device
 
@@ -129,7 +130,8 @@ I made the cover of the light using a piece of white paper, and put my phone ins
 
 ## Part F. Record
 
-**Take a video of your prototyped interaction.**
+**Take a video of your prototyped interaction.**<br>
+**Prototyped interaction video:** https://drive.google.com/file/d/1hdey7Th0oyou_wx_Z33XPW-oCfuiaUom/view?usp=sharing
 
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
