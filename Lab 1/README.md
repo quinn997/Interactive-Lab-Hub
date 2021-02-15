@@ -108,7 +108,8 @@ The color shown on the tinkerbelle device (my phone) is slightly different from 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
-**Include your first attempts at recording the set-up video here.**
+**Include your first attempts at recording the set-up video here.**<br>
+**link to the video:** https://drive.google.com/file/d/1b1U7HGirpHW0vL8iVtOkB8O9JBzxjckL/view?usp=sharing
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
@@ -121,6 +122,7 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 **Include sketches of what your device might look like here.**
+![costume](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%201/costume.JPG?raw=true)
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 
