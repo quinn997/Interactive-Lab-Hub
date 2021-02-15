@@ -67,23 +67,30 @@ _Activity:_ What is happening between the actors?
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
-**Describe your setting, players, activity and goals here.**
+
+
+**Setting:** The interaction is happening in a person's bedroom before he/she leaves the house.<br>
+**Players:** Every family member in the household could be the player.<br>
+**Activity:** An indicator light will be connected to the weather App on the user's phone and display different colors based on the weather of the day (ex. white/snowy, blue/rainy, red/sunny, green/windy, etc). Before the user leaves the house, he/she could check the light and dress accordingly. <br>
+**Goals:** The goal of the family member is to know what the weather is it for the day without having to check his/her phone so that he/she will remember to dress appropriatly. <br>
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
-**Include a picture of your storyboard here**
+
+![storyboard](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%201/storyboard.png?raw=true)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
-**Summarize feedback you got here.**
-
+**Summarize feedback you got here.**<br>
+**Feedback:** The current light will not be able to indicate if the weather is mixed. Also, people who are visually impaired will have diffculties when using this device. 
 
 ## Part B. Act out the Interaction
 
 Try physically acting out the interaction you planned. For now, you can just pretend the device is doing the things you’ve scripted for it. 
 
-**Are there things that seemed better on paper than acted out?**
+**Are there things that seemed better on paper than acted out?**<br>
+If the light is showing white(snow), the user know it's snowing outside but he/she won't know how heavy this snow is. 
 
-**Are there new ideas that occur to you or your collaborators that come up from the acting?**
-
+**Are there new ideas that occur to you or your collaborators that come up from the acting?**<br>
+In addition to the basic colors, the tints and shades of the colors can be used to represent the percentage of the weather. For example, light blue could be used to represent light rain.
 
 ## Part C. Prototype the device
 
@@ -95,7 +102,8 @@ We invented this tool for this lab!
 
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
-**Give us feedback on Tinkerbelle.**
+**Give us feedback on Tinkerbelle.**<br>
+The color shown on the tinkerbelle device (my phone) is slightly different from the color shown on the Jane Wren controller.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
