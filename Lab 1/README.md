@@ -124,8 +124,8 @@ Think about the setting of the device: is the environment a place where the devi
 **Include sketches of what your device might look like here.**
 ![costume](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%201/costume.JPG?raw=true)
 
-**What concerns or opportunitities are influencing the way you've designed the device to look?**
-
+**What concerns or opportunitities are influencing the way you've designed the device to look?**<br>
+I made the cover of the light using a piece of white paper, and put my phone inside the cover to be used as the light source. This way it looks like an actual lamp. 
 
 ## Part F. Record
 
