@@ -103,7 +103,7 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 **Give us feedback on Tinkerbelle.**<br>
-Although I have set the brightness to full on both my phone and computer, the color shown on the tinkerbelle device (my phone) is slightly different from the color shown on the Jane Wren controller(computer).
+I didn't have any problems with the set up process, and it worked well on both of the devices. Although I have set the brightness to full on both my phone and computer, the color shown on the tinkerbelle device (my phone) is slightly different from the color shown on the Jane Wren controller(computer).
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
@@ -124,6 +124,7 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Include sketches of what your device might look like here.**
 ![costume](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%201/costume.JPG?raw=true)
+The device will look like a lamp and it will be placed on a table or any flat surface. I included a stand to the lamp in my paper prototype(As shown in paper prototyped interaction video in Part D), but I couldn't find any resouces near me to add the stand to my current costume design.
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**<br>
 I made the cover of the light using a piece of white paper, and put my phone inside the cover to be used as the light source. This way it looks like an actual lamp. 
