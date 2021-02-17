@@ -146,7 +146,12 @@ This describes the second week's work for this lab activity.
 
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
-**Summarize feedback from your partners here.**
+**Summarize feedback from your partners here.**<br>
+James Wang(jw2594) - James was able to tell that the device was giving hints on the weather before leaving home. He thought the idea was interesting and suggested me to demonstrate more cases in the video to make the interaction more understandable. <br>
+
+Hangyu Lin(hl2357) - Hangyu thought it was hard to tell what the device was supposed to be doing because there was only one case shown in the video and there was no light change. Similar to what James said, he suggested me to act out multiple cases with different light colors. <br>
+
+Andrew Liu (jl3983) - Andrew suggested to add flashing lights/shades of colors to the device in order to demonstrate different amount of precipitation/snow.
 
 ## Make it your own
 
