@@ -173,5 +173,5 @@ Part 2 Storyboard
 ![Storyboard_Part2](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%201/Storyboard_Part2.jpg?raw=true)
 
 Part 2 Videos <br>
-Video 1:https://drive.google.com/file/d/1zZvd4ochbdSFIGUxScP7-5elZ_zpQ5QT/view?usp=sharing
+Video 1:https://drive.google.com/file/d/1zZvd4ochbdSFIGUxScP7-5elZ_zpQ5QT/view?usp=sharing<br>
 Video 2:https://drive.google.com/file/d/10zuf-06G1TMlUOXY1qg3fvucJjp8DEnW/view?usp=sharing
