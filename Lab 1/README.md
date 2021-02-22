@@ -160,4 +160,18 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
-**Document everything here.**
+**Document everything here.**<br>
+Smart Weather Light - I have added some features to the device designed in part 1 of this lab.
+ - voice command: The user is able to ask the device about the weather of the day, then the device will answer the user based on weather information retrieved from internet. 
+ - Mixed weather: The device is able to show mixed weather conditions by displaying 2-color flashing light. (ex. blue/white for sleet weather)
+ - Make Suggestions: The device will make suggestions based on the types of weather. (ex. remind the user to bring an unbrella if it's raining outside)
+
+Part 2 Prototype
+![Prototype_Part2](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%201/Prototype_Part2.jpg?raw=true)
+
+Part 2 Storyboard
+![Storyboard_Part2](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%201/Storyboard_Part2.jpg?raw=true)
+
+Part 2 Videos <br>
+Video 1:https://drive.google.com/file/d/1zZvd4ochbdSFIGUxScP7-5elZ_zpQ5QT/view?usp=sharing
+Video 2:https://drive.google.com/file/d/10zuf-06G1TMlUOXY1qg3fvucJjp8DEnW/view?usp=sharing
