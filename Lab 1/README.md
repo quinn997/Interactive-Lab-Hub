@@ -160,6 +160,7 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
+
 **Document everything here.**<br>
 Smart Weather Light - I have added some features to the device designed in part 1 of this lab.
  - voice command: The user is able to ask the device about the weather of the day, then the device will answer the user based on weather information retrieved from internet. 
@@ -175,3 +176,4 @@ Part 2 Storyboard
 Part 2 Videos <br>
 Video 1:https://drive.google.com/file/d/1zZvd4ochbdSFIGUxScP7-5elZ_zpQ5QT/view?usp=sharing<br>
 Video 2:https://drive.google.com/file/d/10zuf-06G1TMlUOXY1qg3fvucJjp8DEnW/view?usp=sharing
+
