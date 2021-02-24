@@ -79,7 +79,7 @@ Clone the repo for this assignment
 
 ```
 (circuitpython) pi@ixe00:~$ git clone https://github.com/YOURGITID/Interactive-Lab-Hub.git
-(circuitpython) pi@ixe00:~$ cd Interactive-Lab-Hub
+(circuitpython) pi@ixe00:~$ cd Interactive-Lab-Hub/Lab\ 2/
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub $ 
 ```
 
@@ -91,6 +91,7 @@ Install the packages from the requirements.txt and run the example
 02/24/2021 11:20:49
 ```
 you can press `ctrl-c` to exit.
+If you're unfamiliar with the code in `cli_clock.py` have a look at [this refresher](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p). If you're still concerned please reach out to the teaching staff!
 
 
 ## Part C. 
@@ -101,7 +102,7 @@ We will introduce you to the [Adafruit MiniPiTFT](https://www.adafruit.com/produ
 
 The Raspberry Pi 4 has a variety of interfacing options. When you plug the pi in the red power LED turns on. Any time the SD card is accessed the green LED flashes. It has standard USB ports and HDMI ports. Less familiar it has a set of 20x2 pin headers that allow you to connect a various peripherals.
 
-<img src="https://www.raspberrypi.org/documentation/usage/gpio/images/GPIO-Pinout-Diagram-2.png" height="200" />
+<img src="https://maker.pro/storage/g9KLAxU/g9KLAxUiJb9e4Zp1xcxrMhbCDyc3QWPdSunYAoew.png" height="400" />
 
 To learn more about any individual pin and what it is for go to [pinout.xyz](https://pinout.xyz/pinout/3v3_power) and click on the pin. Some terms may be unfamiliar but we will go over the relevant ones as they come up.
 
@@ -127,7 +128,7 @@ python screen_test.py
 
 You can type the name of a color then press either of the buttons to see what happens on the display. take a look at the code with
 ```
-cat screenTest.py
+cat screen_test.py
 ```
 
 #### Displaying Info
@@ -153,6 +154,16 @@ Does time have to be linear?  How do you measure a year? [In daylights? In midni
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
 
 **A copy of your code should be in your Lab 2 Github repo.**
+
+you can push to your personal github repo by adding the files here, commiting and pushing.
+
+```
+git add .
+git commit -m'your message here'
+git push
+```
+
+After that git will ask you to login to your github account to upload.
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
