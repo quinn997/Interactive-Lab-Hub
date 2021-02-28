@@ -72,8 +72,6 @@ pi@ixe00:~ $ source circuitpython/bin/activate
 (circuitpython) pi@ixe00:~ $ 
 
 ```
-![Part A Screenshot](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%202/Part%20A%20Screenshot.png?raw=true)
-
 
 ## Part B. 
 ### Try out the Command Line Clock
@@ -92,8 +90,6 @@ Install the packages from the requirements.txt and run the example
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ python cli_clock.py 
 02/24/2021 11:20:49
 ```
-
-![Part B Screenshot](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%202/Part%20B%20Screenshot.png?raw=true)
 
 you can press `ctrl-c` to exit.
 If you're unfamiliar with the code in `cli_clock.py` have a look at [this refresher](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p). If you're still concerned please reach out to the teaching staff!
