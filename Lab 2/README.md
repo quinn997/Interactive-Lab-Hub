@@ -145,6 +145,7 @@ You can look in `image.py` for an example of how to display an image on the scre
 ## Set up the Display Clock Demo
 
 In `screen_clock.py`. Show the time by filling in the while loop. You can use the code in `cli_clock.py` and `stats.py` to figure this out.
+Part D Video: https://drive.google.com/file/d/1NCyrIerBejnJbIdLQIAE1WaZKpxQiN_z/view?usp=sharing
 
 
 ## Part E.
@@ -170,6 +171,7 @@ After that git will ask you to login to your github account to upload.
 ## Make a short video of your modified barebones PiClock
 
 **Take a video of your PiClock.**
+Lab 2 PiClock Video: https://drive.google.com/file/d/1hPn5nQ1YRlDWPd2VFZCbw0lIWHCF3lAL/view?usp=sharing
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
