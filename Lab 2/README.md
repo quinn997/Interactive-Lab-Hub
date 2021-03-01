@@ -180,7 +180,7 @@ After that git will ask you to login to your github account to upload.
 ![Part 2 Sketch](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%202/PartG.jpg?raw=true) <br>
 Part 2 Sketch and Ideas
 - Add the timer feature to button B
-- Add percentage of year/month/week stats to buttonA
-- add the date duration calculator
+- Add percentage of year/month/week stats to button A
+- Add the date duration calculator
 - Add background images
 
