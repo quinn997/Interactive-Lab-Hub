@@ -145,7 +145,7 @@ You can look in `image.py` for an example of how to display an image on the scre
 ## Set up the Display Clock Demo
 
 In `screen_clock.py`. Show the time by filling in the while loop. You can use the code in `cli_clock.py` and `stats.py` to figure this out. <br>
-Part D Video: https://drive.google.com/file/d/1NCyrIerBejnJbIdLQIAE1WaZKpxQiN_z/view?usp=sharing
+- Part D Video: https://drive.google.com/file/d/1NCyrIerBejnJbIdLQIAE1WaZKpxQiN_z/view?usp=sharing
 
 
 ## Part E.
@@ -155,7 +155,8 @@ Does time have to be linear?  How do you measure a year? [In daylights? In midni
 
 Can you make time interactive? You can look in `screen_test.py` for examples for how to use the buttons.
 
-**A copy of your code should be in your Lab 2 Github repo.**
+**A copy of your code should be in your Lab 2 Github repo.** <br>
+- Added PiClock.py and updated other files
 
 you can push to your personal github repo by adding the files here, commiting and pushing.
 
@@ -171,10 +172,15 @@ After that git will ask you to login to your github account to upload.
 ## Make a short video of your modified barebones PiClock
 
 **Take a video of your PiClock.** <br>
-Lab 2 PiClock Video: https://drive.google.com/file/d/1hPn5nQ1YRlDWPd2VFZCbw0lIWHCF3lAL/view?usp=sharing
+- Lab 2 PiClock Video: https://drive.google.com/file/d/1hPn5nQ1YRlDWPd2VFZCbw0lIWHCF3lAL/view?usp=sharing
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
-
+![Part 2 Sketch](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%202/PartG.jpg?raw=true) <br>
+Part 2 Sketch and Ideas
+- Add the timer feature to button B
+- Add percentage of year/month/week stats to buttonA
+- add the date duration calculator
+- Add background images
 
