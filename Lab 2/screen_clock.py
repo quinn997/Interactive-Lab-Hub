@@ -1,4 +1,5 @@
 import time
+from time import strftime, sleep
 import subprocess
 import digitalio
 import board
@@ -60,13 +61,15 @@ font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
+x=0
 
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
-
-    #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
+	
+    y = top
+    draw.text((x, y), strftime("%m/%d/%Y %H:%M:%S"), font=font, fill="#FFFFFF")
 
     # Display image.
     disp.image(image, rotation)
-    time.sleep(1)
+    time.sleep(0.7)
