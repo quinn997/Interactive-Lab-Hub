@@ -1,4 +1,4 @@
-# You're a wizard, [Quinn]
+# You're a wizard, Quinn
 
 <img src="https://pbs.twimg.com/media/Cen7qkHWIAAdKsB.jpg" height="400">
 
@@ -116,9 +116,9 @@ Answer the following:
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-*To design a more autonomous version of the system, we can take user's accents into account when working on speech to text. Since the person who tested my system and I are both non native speakers, the speech to text feature does not correctly recognize our word every time.  *
+*To design a more autonomous version of the system, we can take user's accents into account when working on speech to text. Since the person who tested my system and I are both non native speakers, the speech to text feature does not correctly recognize our word every time.*
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-*I can use the accelerator to adjust the volume of the speaker, and use the twist as a timer to remind user when the food will be ready.*
+*From the currently system, I can record what types of food are recommendated the most/most favored by the family members. This dataset can help to develp a more autonomous version of the system in the future. I can use the accelerator to adjust the volume of the speaker, and use the twist as a timer to remind user when the food will be ready.*
