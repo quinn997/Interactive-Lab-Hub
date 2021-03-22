@@ -1,6 +1,3 @@
-import eventlet
-eventlet.monkey_patch()
-
 from flask import Flask, Response,render_template
 from flask_socketio import SocketIO, send, emit
 from subprocess import Popen, call
@@ -56,6 +53,6 @@ signal.signal(signal.SIGINT, signal_handler)
 
 
 if __name__ == "__main__":
-    socketio.run(app, host='0.0.0.0', port=5000)
+    socketio.run(app, host='192.168.1.91', port=5000)
 
 
