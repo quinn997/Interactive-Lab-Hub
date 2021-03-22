@@ -59,7 +59,6 @@ In the [demo directory](./demo), you will find an example wizard of oz project y
 There is an included [dspeech](./dspeech) demo that uses [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) for speech to text. If you're interested in trying it out we suggest you create a seperarate virutalenv. 
 
 
-
 # Lab 3 Part 2
 
 Create a system that runs on the Raspberry Pi that takes in one or more sensors and requires participants to speak to it. Document how the system works and include videos of both the system and the controller.
@@ -68,9 +67,15 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 1. Sketch ideas for what you'll work on in lab on Wednesday.
 
+![Sketch](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%203/sketch.jpg?raw=true)
+
+
 ## Share your idea sketches with Zoom Room mates and get feedback
 
 *what was the feedback? Who did it come from?*
+
+
+Feedback from Andrew (jl3983): Andrew thought that I should add a "repeat" feature since the instructions are long and they are easy to forget. By adding the repeat feature, the user would be able to listen to a specific step instruction as many times as he/she wants.
 
 ## Prototype your system
 
@@ -81,7 +86,20 @@ The system should:
 
 *Document how the system works*
 
+Supplies used:
+- raspberry Pi 
+- Speaker: speech to text. The recipe assistant uses the speaker to read the step instructions.
+- microphone: text to speech. Microphone was used to capture user inputs.
+- adafruit mini pitft: Used to display the picture of the food.
+- Sparkfun joystick: used to capture user inputs.
+
+This recipe assistant will teach you how to cook based on the food you have in your home. We can say "next step", "go back", or "repeat" to have the assistant read the next step, the previous step or repeat the current step in the recipe book. In addtion, we can also use the joystick to control the assistant. By pushing left, it will read the previous step in the recipe book. By pushing right, it will read the next step in the recipe book. Finally, it will repeat the instruction of current step if we push down the joystick button.
+
+
 *Include videos or screencaptures of both the system and the controller.*
+
+video: https://drive.google.com/file/d/1Bzy_rMPjc-ap-GJk3evMtE0HLGaC5qmI/view?usp=sharing
+
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
@@ -89,18 +107,18 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-*your answer here*
+
+*The system worked pretty well. It was able to nagivate smoothly between the step instructions and no mistakes were observed.*
 
 ### What worked well about the controller and what didn't?
 
-*your answer here*
+*The speaker and microphone worked very well. In most cases, the joystick worked well, but sometimes a very small movement can cause the joystick to move to a direction and trigger an unexpected response from the recipe assistant.*
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-*your answer here*
+*To design a more autonomous version of the system, we can take user's accents into account when working on speech to text. Since the person who tested my system and I are both non native speakers, the speech to text feature does not correctly recognize our word every time.  *
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-*your answer here*
-
+*I can use the accelerator to adjust the volume of the speaker, and use the twist as a timer to remind user when the food will be ready.*
