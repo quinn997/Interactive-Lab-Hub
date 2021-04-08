@@ -128,7 +128,7 @@ Here is an example:
 
 **Lab 4**
 
-***For this lab, I worked with Quinn, and we decided to make a "complicate" and "playable" piano. The OLED screen and the spray paint were arrived much later than we expected. Therefore, the finished version of this readme was uploaded after Monday.***
+***For this lab, I worked with Andrew, and we decided to make a "complicate" and "playable" piano. The OLED screen and the spray paint were arrived much later than we expected. Therefore, the finished version of this readme was uploaded after Monday.***
 
 
 Make a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
@@ -139,19 +139,19 @@ Here are the designs of the device:
 
 Piano keys:
 
-![PianoKeys](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Keys.png?raw=true)
+![PianoKeys](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Keys.png?raw=true)
 
 Board:
 
-![Board](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Pianosketch-12.jpg?raw=true)
+![Board](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Pianosketch-12.jpg?raw=true)
 
 Inside:
 
-![Inside](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Inside_design.jpg?raw=true)
+![Inside](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Inside_design.jpg?raw=true)
 
 Outside:
 
-![Outside](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/outside_design.jpg?raw=true)
+![Outside](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%204/outside_design.jpg?raw=true)
 
 
 **b. Make a video of your paper display in action.**
@@ -193,11 +193,11 @@ Reiterating:
 
 Piano keys:
 
-![PianoKeys](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Keys.png?raw=true)
+![PianoKeys](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Keys.png?raw=true)
 
 Board:
 
-![Board](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Pianosketch-12.jpg?raw=true)
+![Board](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Pianosketch-12.jpg?raw=true)
 
 
 2. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
@@ -206,18 +206,18 @@ Board:
 
 Inside:
 
-![Inside](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Inside_design.jpg?raw=true)
+![Inside](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Inside_design.jpg?raw=true)
 
 Outside:
 
-![Outside](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/outside_design.jpg?raw=true)
+![Outside](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%204/outside_design.jpg?raw=true)
 
 
 3. "Works like" prototypes: show us what the device can do
 
 **We called the device "Intelligent Piano". People can play and compete with their friends with any song they like. It has 12 keys corresponding to 12 notes in one octave There are two LED lights. The red light means you played the wrong note by pressing the wrong key. The green light means you played the correct note. You can choose your song by saying the name to this intelligent piano. The green light will flash three times, and then you can start playing. There is a blue circle showing on the OLED screen. The circle will become bigger as more correct notes are played. Therefore, who gets the biggest blue circle will be the winner.**
 
-![WorksLike](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Works_like.PNG?raw=true)
+![WorksLike](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Works_like.PNG?raw=true)
 
 
 4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
