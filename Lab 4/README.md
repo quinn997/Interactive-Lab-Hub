@@ -126,13 +126,43 @@ Here is an example:
 <img src="https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2020Fall/images/horoscope.png?raw=true"  width="250"/>
 
 
+**Lab 4**
+
+***For this lab, I worked with Quinn, and we decided to make a "complicate" and "playable" piano. The OLED screen and the spray paint were arrived much later than we expected. Therefore, the finished version of this readme was uploaded after Monday.***
+
+
 Make a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
 
+Here are the designs of the device:
+
+Piano keys:
+
+![PianoKeys](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Keys.png?raw=true)
+
+Board:
+
+![Board](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Pianosketch-12.jpg?raw=true)
+
+Inside:
+
+![Inside](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Inside_design.jpg?raw=true)
+
+Outside:
+
+![Outside](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/outside_design.jpg?raw=true)
+
+
 **b. Make a video of your paper display in action.**
 
+Here is the video to demonstrate the interactions with the play display:
+
+https://drive.google.com/file/d/13oLg1N4CRtApbQOo7F1VefY4eAJBSQUE/view?usp=sharing
+
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+As we planed, the size of piano keys should be suitable for pressing, and the overall weight should be light, because it was designed as a "playable" piano that people can compete with their friends by the correctness of the song they play. The sound delay should be small so that people would not recognize it.
 
 ### Part D
 ### Materiality
@@ -143,7 +173,13 @@ Design a system with the Pi and anything from your kit with a focus on form, and
 
 **a. document the material prototype.** Include candidates that were considered even if they were set aside later.
 
+Material we planed to use:
+
+Cardboard, Poster Board, White/Black Spray Paint, Rubber Bands, Qwiic Cable, Copper Tape, Alligator Clips.
+
 **b. explain the selection.**
+
+At the end, we selected the poster board instead of cardboard, because cardboard will make the device a bit "heavy" than we expected, and it was hard to construct the shape we wanted. The poster board was easy to cut. We used the white and black spray paint to make the piano keys look real, and we used the rubber bands to connect the keys to the board in order to make the keys resilient. Since we wanted to make the whole device relatively small but has 12 keys connecting to the capacitive sensor, we used the copper tape for the connections.
 
 ### Part 2.
 
@@ -152,9 +188,42 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 Reiterating:
 ### Deliverables for this lab are: 
 1. Sketches/photos of device designs
-1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
+
+**As we showed before, here are the designs of the device:**
+
+Piano keys:
+
+![PianoKeys](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Keys.png?raw=true)
+
+Board:
+
+![Board](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Pianosketch-12.jpg?raw=true)
+
+
+2. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
+
+**As we showed before, here is how it looks like: (It's pretty light, about 0.03 pound.)**
+
+Inside:
+
+![Inside](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Inside_design.jpg?raw=true)
+
+Outside:
+
+![Outside](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/outside_design.jpg?raw=true)
+
+
 3. "Works like" prototypes: show us what the device can do
+
+**We called the device "Intelligent Piano". People can play and compete with their friends with any song they like. It has 12 keys corresponding to 12 notes in one octave There are two LED lights. The red light means you played the wrong note by pressing the wrong key. The green light means you played the correct note. You can choose your song by saying the name to this intelligent piano. The green light will flash three times, and then you can start playing. There is a blue circle showing on the OLED screen. The circle will become bigger as more correct notes are played. Therefore, who gets the biggest blue circle will be the winner.**
+
+![WorksLike](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%204/Works_like.PNG?raw=true)
+
+
 4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
-5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
+
+Here is the final video of the link:
+
+https://drive.google.com/file/d/1C2TpOIsSzzAJXWiXoeJrPmfv47dymPVB/view?usp=sharing
 
 
