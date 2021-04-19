@@ -46,6 +46,29 @@ D) [Reflect](#part-d)
 ### Part A
 ### Play with different sense-making algorithms.
 
+Play with contour detection:
+
+<img src="https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%205/contour_out.jpg?raw=true"  width="400"/>
+
+Play with object detection:
+
+<img src="https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%205/detected_out.jpg?raw=true"  width="400"/>
+
+Play with flow detection:
+
+<img src="https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%205/flow.png?raw=true"  width="400"/>
+
+Play with face detection:
+
+<img src="https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%205/faces_detected.jpg?raw=true"  width="400"/>
+
+Play with Teachable Machines:
+
+<img src="https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%205/Squirtle.png?raw=true"  width="200"/><img src="https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%205/Squishmallow.png?raw=true"  width="200"/>
+<img src="https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%205/Unrelated.png?raw=true"  width="200"/>
+
+
+
 Befor you get started connect the RaspberryPi Camera V2. [The Pi hut has a great explanation on how to do that](https://thepihut.com/blogs/raspberry-pi-tutorials/16021420-how-to-install-use-the-raspberry-pi-camera).  
 
 #### OpenCV
@@ -121,6 +144,20 @@ This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
 
+**Squishmallows shark or Squirtle**
+
+Model: Teachable Machines object detection
+
+When an object is placed in front of the camera, the camera will be able to tell if an object is a squishmallows shark or a squirtle. If it's neither, it should also notify the user that it's an unrelated object.
+
+Experimentation
+- When I place the squishmallows shark in front of the camera, it correctly detects the object and outputs "I think it's a Squishmallows".
+- When I place the squirtle in front of the camera, it also correclt detects the object and outputs "I think it's a squirtle".
+- When neither of the obejcts is placed in front of the camera, it outputs "I think it's unrelated"
+
+video: https://drive.google.com/file/d/1rXATOsQJszdxEBG5gSVA5W0NyImLmW4y/view?usp=sharing
+
+
 ### Part C
 ### Test the interaction prototype
 
@@ -140,6 +177,10 @@ For example:
 ### Part D
 ### Characterize your own Observant system
 
+**Include a short video demonstrating the finished result.**
+
+Final Video: https://drive.google.com/file/d/1pwWuGaStvRvc9e22MTiKnsn4rQcXC8Ak/view?usp=sharing
+
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
@@ -150,11 +191,4 @@ During the lecture, we mentioned questions to help characterize a material:
 * What are other properties/behaviors of X?
 * How does X feel?
 
-**Include a short video demonstrating the answers to these questions.**
-
-### Part 2.
-
-Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
-
-**Include a short video demonstrating the finished result.**
 
