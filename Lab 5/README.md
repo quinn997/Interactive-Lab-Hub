@@ -207,11 +207,30 @@ Final Video: https://drive.google.com/file/d/1pwWuGaStvRvc9e22MTiKnsn4rQcXC8Ak/v
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+
+Face lock can be used to protect people's computers and privacy. For example, when a stranger is sitting in front of my computer, the face lock will alarm the stranger and speaker will play "You are not Quinn, go away!"
+
 * What is a good environment for X?
+
+Good lighting, simple background, the person shows the whole face and doesn't move.
+
 * What is a bad environment for X?
+
+poor lighting, too many objects detected, the person only shows part of the face and is constantly moving.
+
 * When will X break?
+
+Sometimes the face lock fails to detect the right person when the lighting is dark or when the angle is different.
+
 * When it breaks how will X break?
+
+It will incorrectly classify the stranger as the owner of the computer. If the person is constantly moving in front of the camera, it will also incorrectly classify the stranger as the owner of the computer.
+
 * What are other properties/behaviors of X?
+
+I added a second identification method - password - to make sure that strangers will not be able to unlock the owner's computer even if he used the owener's face to unlock the face lock.
+
 * How does X feel?
 
+Face lock is connected to the labtop webcam. It can be easily removed so that the user could set is up at different places like doors.
 
