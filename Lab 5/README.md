@@ -164,15 +164,38 @@ video: https://drive.google.com/file/d/1rXATOsQJszdxEBG5gSVA5W0NyImLmW4y/view?us
 Now flight test your interactive prototype and **note your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+
+For the most of the time, the face lock does what it supposed to do. In particular, I noticed that it works well when the person keeps an appropriate distance from the camera (not too close & Not too far)
+
+2. When does it fail?
+
+Sometimes the face lock fails to detect the right person when the lighting is dark or when the angle is different.
+
+3. When it fails, why does it fail?
+
+When the light is too dark in the room, it makes the face lock harder to classify objects. When the angle is different, the model fails because some of these angles weren't used to train the model.
+
+4. Based on the behavior you have seen, what other scenarios could cause problems?
+
+I think the background color could also cause problems. Since I'm wearing a white shirt and a photo of another person I used to test the model also has a white background, sometimes face lock fails to identity the owner correctly.
 
 **Think about someone using the system. Describe how you think this will work.**
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+
+During their first try, they will probably not be aware of the uncertainties in the system. After experimenting a few more times, they will be able to work it out.
+
+2. How bad would they be impacted by a miss classification?
+
+If the owner of the computer got identified as the stranger, it wouldn't be too bad since he/she could simply give face lock another chance to detect his/her face. On the other hand, It will have a bad consequence if a stranege was identified as the owner because the stranger will have the access to owner's personal files. 
+
+3. How could change your interactive system to address this?
+
+I added a second identification method - password - to make sure that strangers will not be able to unlock the owner's computer even if he used the owener's face to unlock the face lock.
+
+4. Are there optimizations you can try to do on your sense-making algorithm.
+
+Increase the size of the dataset will help face lock to generate more accurate results.
+
 
 ### Part D
 ### Characterize your own Observant system
