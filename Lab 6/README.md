@@ -86,13 +86,13 @@ Glitch is a great tool for prototyping sites, interfaces and web-apps that's wor
 Find at least one class (more are okay) partner, and design a distributed application together.
 
 
-#### For this lab, Quinn and I worked together, and we decided to make a board game: Gomoku (also called "Five In A Row").
+#### For this lab, Andrew Liu and I worked together, and we decided to make a board game: Gomoku (also called "Five In A Row").
 
 
 #### Gomoku is a board game, and the object of this two-player game is to be the first player to get five in a row horizontally, vertically, or diagonally (as shown below).
 
 
-![Gomoku_game](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%206/Gomoku%20rules.png?raw=true)
+![Gomoku_game](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%206/Gomoku%20rules.png?raw=true)
 
 
 
@@ -108,7 +108,7 @@ Find at least one class (more are okay) partner, and design a distributed applic
 #### Here is the diagram that shows the architecture of the system:
 
 
-![Gomoku_architecture](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%206/Gomoku_Architecture.jpg?raw=true)
+![Gomoku_architecture](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Lab%206/Gomoku_Architecture.jpg?raw=true)
 
 
 #### The input is the user using the joystick to control the cursor on the board. Each position is representing by a point (x, y). Moving the joystick to the left or right (x -+ 1), up or down (y +- 1), will change the location. When the player press the button, the piece will be placed at that location. Raspberry Pi keeps sending the data to the server as a string (location x, location y, placet the piece or not, player ID). The server will decode the message it received and display the board and pieces. All the game logics are running on the server. After there is a winner, the game displays the winning message and automatically quit after 5 seconds. 
