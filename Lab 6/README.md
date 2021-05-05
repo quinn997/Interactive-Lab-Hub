@@ -83,14 +83,44 @@ Glitch is a great tool for prototyping sites, interfaces and web-apps that's wor
 
 ## Make it your own
 
-Find at least one class (more are okay) partner, and design a distributed application together. 
+Find at least one class (more are okay) partner, and design a distributed application together.
+
+
+#### For this lab, Quinn and I worked together, and we decided to make a board game: Gomoku (also called "Five In A Row").
+
+
+#### Gomoku is a board game, and the object of this two-player game is to be the first player to get five in a row horizontally, vertically, or diagonally (as shown below).
+
+
+![Gomoku_game](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%206/Gomoku%20rules.png?raw=true)
+
+
 
 **1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+
+#### "Gomoku is an abstract strategy board game. Playing Gomoku online with a friend not only brings forth mental challenges but also increases social interactions." It's a great game to spend time on during this pandemic. We developed the game by using Swkings's GobangV1 (https://github.com/Swkings/GObangV1), most of the parts were changed to accommodate with the online system (client and server) design which also uses Raspberry Pi and the joystick, but the game logics are still the same. 
+
+
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+
+
+#### Here is the diagram that shows the architecture of the system:
+
+
+![Gomoku_architecture](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Lab%206/Gomoku_Architecture.jpg?raw=true)
+
+
+#### The input is the user using the joystick to control the cursor on the board. Each position is representing by a point (x, y). Moving the joystick to the left or right (x -+ 1), up or down (y +- 1), will change the location. When the player press the button, the piece will be placed at that location. Raspberry Pi keeps sending the data to the server as a string (location x, location y, placet the piece or not, player ID). The server will decode the message it received and display the board and pieces. All the game logics are running on the server. After there is a winner, the game displays the winning message and automatically quit after 5 seconds. 
+
 
 **3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
 
+#### Using the joystick is the easiest and the best way for players to control the piece location. Both moving around the joystick and pressing the button are commonly used. The UI screen shows the board and visually tells the players what's going on. We believe the system we designed is easy to use, and people can play this game without any explanations beforehand.
+
+
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
-**5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.
+#### Here is the final demo video:
+
+https://drive.google.com/file/d/1hF7eaqvcAHlI11y0Bbd0V5nBis5onFYF/view?usp=sharing
