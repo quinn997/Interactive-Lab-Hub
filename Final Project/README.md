@@ -87,7 +87,7 @@ Instead of displaying all the information (money values, prompt messages, case n
 
 Here is an image of the final graphic user interface:
 
-![GUI](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/Design/Deal%20Or%20No%20Deal%20UI.png?raw=true)
+![GUI](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/Design/Deal%20Or%20No%20Deal%20UI.png?raw=true)
 
 ----------------------------------
 
@@ -102,9 +102,9 @@ In order to design the appearance of the Deal or No Deal game, we first need to 
 
 Here are the front side and back side design of the device:
 
-![Prototype_Front](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/Design/Deal%20Or%20No%20Deal%20Prototype%20Front.jpg?raw=true)
+![Prototype_Front](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/Design/Deal%20Or%20No%20Deal%20Prototype%20Front.jpg?raw=true)
 
-![Prototype_Back](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/Design/Deal%20Or%20No%20Deal%20Prototype%20Back.jpg?raw=true)
+![Prototype_Back](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/Design/Deal%20Or%20No%20Deal%20Prototype%20Back.jpg?raw=true)
 
 After gathering the devices needed to build the device, we designed a paper prototype that demonstrates how the parts should be connected. Instead of having 26 briefcases as shown in the original game, we removed two briefcases from the model because of the limited number of keys on the capacitive touch sensors. On the front side of the board, the briefcases and the “Deal” and “No Deal” buttons were placed based on the locations of items showing in the graphic user interface. It allows the player to track and select the cases easily. On the back side of the board, we drilled 24 holes, one for each briefcase. We placed two capacitive touch sensors on the left and right side of the board horizontally. By doing this, keys can be connected to the briefcases evenly and with the least amount of copper tape. The default I2C address for the Adafruit MPR121 12-Key Capacitive Touch Sensor is 0x5A. To make both capacitive touch sensors work, we bridged the jumper ADDR by using the soldering iron to change the I2C address on capacitive touch sensor B to 0x5B. Also, we changed the I2C address on the green button from default to 0x60 by closing the four solder jumpers on the board (labeled A0, A1, A2 and A3).
 
@@ -112,17 +112,17 @@ To complete the design, we added four legs on the four corners to support the bo
 
 Here are the images of the finished device:
 
-![Front](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/Design/Front.jpg?raw=true)
+![Front](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/Design/Front.jpg?raw=true)
 
-![Back](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/Design/Back.jpg?raw=true)
+![Back](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/Design/Back.jpg?raw=true)
 
-![Whole_Device](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/Design/Fully%20Connected%20Device.jpg?raw=true)
+![Whole_Device](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/Design/Fully%20Connected%20Device.jpg?raw=true)
 
 ----------------------------------
 
 ### Final Video
 
-[![Final_Video](https://github.com/andrewljc0801/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/Design/Deal%20Or%20No%20Deal%20Background.jpg)](https://www.youtube.com/watch?v=wHek0vP4rhU)
+[![Final_Video](https://github.com/quinn997/Interactive-Lab-Hub/blob/Spring2021/Final%20Project/Design/Deal%20Or%20No%20Deal%20Background.jpg)](https://www.youtube.com/watch?v=wHek0vP4rhU)
 
 ----------------------------------
 
